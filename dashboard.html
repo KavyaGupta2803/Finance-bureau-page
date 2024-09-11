@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Bureau - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://th.bing.com/th/id/OIP.8pVfo0Ob90ZS8av1uVA4mAHaMk?rs=1&pid=ImgDetMain" alt="Logo" class="logo">
+            <h1>PMSSS</h1>
+            <h1>Finance Bureau</h1>
+            <!-- Logout Button -->
+            <button class="logoutBtn" id="logoutBtn">Logout</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Verified Students</h2>
+        <table>
+            <tr>
+                <th>Serial No.</th>
+                <th>Name</th>
+                <th>Details</th>
+                <th>Bank Details</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>XYZ</td>
+                <td>CS Student, XYZ University</td>
+                <td>Bank of XYZ, Account: 123456</td>
+                <td><button class="sanctionBtn">Sanction Loan</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ABC</td>
+                <td>CS Student, ABC University</td>
+                <td>Bank of ABC, Account: 123456</td>
+                <td><button class="sanctionBtn">Sanction Loan</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>DEF</td>
+                <td>IT Student, DEF University</td>
+                <td>Bank of DEF, Account: 654321</td>
+                <td><button class="sanctionBtn">Sanction Loan</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>GHI</td>
+                <td>Mechanical Engineering, GHI University</td>
+                <td>Bank of GHI, Account: 789123</td>
+                <td><button class="sanctionBtn">Sanction Loan</button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>JKL</td>
+                <td>Electronics Engineering, JKL University</td>
+                <td>Bank of JKL, Account: 987654</td>
+                <td><button class="sanctionBtn">Sanction Loan</button></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>&copy; 2023 Prime Minister's Special Student Scheme. All rights reserved.</p>
+    </footer>
+    <div id="popupNotification" class="popup"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
